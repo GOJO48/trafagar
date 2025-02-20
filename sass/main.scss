@@ -1,11 +1,102 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     width: 1237px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.header {
+    width: 800px;
+    height: 1500px;
+    background: aliceblue;
+    &__img {
+        width: 332px;
+        height: 598px;
+        margin-left: 230px;
+    }
+    &__login {
+        margin-top: 77px;
+        width: 600px;
+        height: 600px;
+        margin: 77 auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        &__form {
+            &__login-input {
+                width: 597px;
+                height: 113px;
+                margin-left: 100px;
+                margin-top: 50px;
+                border: none;
+                color: rgb(0, 0, 0);
+                font-size: 30px;
+                padding-left: 140px;
+                border-style: solid;
+                border-color: rgb(166, 10, 209);
+                background-color: transparent;
+                border-radius: 85px;
+            }
+            &__login-input-two {
+                width: 597px;
+                height: 113px;
+                margin-left: 100px;
+                margin-top: -80px;
+                border: none;
+                color: rgb(0, 0, 0);
+                font-size: 30px;
+                padding-left: 140px;
+                border-style: solid;
+                border-color: rgb(166, 10, 209);
+                background-color: transparent;
+                border-radius: 85px;
+                margin-bottom: -40px;
+            }
+            &__email {
+                position: relative;
+                bottom: 71px;
+                left: 150px;
+            }
+            &__hr {
+                position: relative;
+                width: 1px;
+                height: 67px;
+                bottom: 120px;
+                left: 220px;
+                color: rgb(166, 10, 209);
+            }
+            &__block {
+                position: relative;
+                bottom: 40px;
+                left: 150px;
+            }
+            &__hr-two {
+                position: relative;
+                width: 1px;
+                height: 67px;
+                bottom: 90px;
+                left: 220px;
+                color: rgb(166, 10, 209);
+            }
+            &__link {
+                margin-left: 320px;
+                margin-top: 50px;
+                color: black;
+            }
+            &__submit {
+                width: 499px;
+                height: 95px;
+                margin-top: 90px;
+                margin-left: 140px;
+                border: none;
+                color: rgb(255, 255, 255);
+                font-size: 30px;
+                background-color: rgb(98, 87, 145);
+                border-radius: 85px;
+            }
+        }
+    }
 }
